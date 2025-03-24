@@ -34,7 +34,7 @@ public class TextboxTest {
         WebElement Cleartext = driver.findElement(By.xpath("//*[@id=\"j_idt88:j_idt95\"]"));
         Cleartext.click();
 
-        //Retrive the typed text
+        //Retrive the typed textbox
         WebElement Retrive = driver.findElement(By.id("j_idt88:j_idt97"));
         String Value= Retrive.getAttribute("value");
         System.out.println("This text box is" +Value);
