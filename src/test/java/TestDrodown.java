@@ -43,11 +43,6 @@ public class TestDrodown {
         //using send keys select dropdown values
         dropdownOne.sendKeys("Puppeteer");
         Thread.sleep(3000);
-
-        //Google dropdown
-
-        //TestNG
-        // Google test script
     }
 @Test
     //Google dropdown
@@ -60,7 +55,5 @@ public class TestDrodown {
         for(WebElement option : Optionthree){
             System.out.println(option.getText());
         }
-
-
     }
 }
